@@ -6,10 +6,10 @@
 
 ## 🔍 About me
 
-- **Day job:** Senior Android Develop at JPMC.
+- **Day job:** Senior Android Developer at JPMC.
 - **Personal Projects:** Founder @ **Angus Software** — Android apps & games
 - **Stack:** Kotlin · Java · XML · Gradle (KTS) · Jetpack Compose · LibGDX
-- **Interests:** Small Apps, Game AI, networked multiplayer, building muscle (natty).
+- **Interests:** Small / Mobile Apps, Game AI, Open Source, networked multiplayer, building muscle (natty).
 
 ## 📌 Highlighted projects
 
@@ -24,9 +24,24 @@
 
 ## 🛠️ Current focus
 
-- Migrating legacy projects to **Jetpack Compose & Kotlin Multiplatform**.
-- Experimenting with **KotlinDL** for on‑device ML.
-- Building a relay‑server architecture for my upcoming strategy game.
+- Migrating legacy projects to **Jetpack Compose & Kotlin Multiplatform**
+  - Convert Angus Software Website to KMP
+  - Build up Angus Software Theming through centralized theming repo
+- Building a relay‑server architecture for my upcoming strategy game
+
+## 🔮 Future interests
+
+- **atproto ecosystem**: Building applications on the AT Protocol (Bluesky)
+- **Local ML/AI applications**: Running and fine-tuning models locally for:
+  - Text generation and summarization
+  - Image generation and manipulation
+  - Personal productivity tools
+  - Knowledge management and retrieval
+- **Fitness/Bodybuilding software**: Developing applications for:
+  - Body fat percentage tracking and comparisons
+  - Workout planning and progression tracking
+  - Nutrition and supplement management
+
 
 ## 📈 GitHub stats
 
