@@ -1,15 +1,15 @@
 # Harry Cliff (a.k.a. **RhoMan₵er**)
 
-> Software engineer, Android specialist, and compulsive side‑project tinkerer.
+> Software developer, Android professional, guy who wants to make cool things
 
 <br/>
 
 ## 🔍 About me
 
-- **Day job:** Senior Android engineer at JPMorgan Chase.
-- **Side‑hustle:** Founder @ **Angus Software** — mobile tools & games.
-- **Stack:** Kotlin · Java · Gradle (KTS & Groovy) · Jetpack Compose · LibGDX · KryoNet · SQLite/Room.
-- **Interests:** Game AI, networked multiplayer, lifting heavy things, and reducing life’s boiler‑plate.
+- **Day job:** Senior Android Develop at JPMC.
+- **Personal Projects:** Founder @ **Angus Software** — Android apps & games
+- **Stack:** Kotlin · Java · XML · Gradle (KTS) · Jetpack Compose · LibGDX
+- **Interests:** Small Apps, Game AI, networked multiplayer, building muscle (natty).
 
 ## 📌 Highlighted projects
 
@@ -20,7 +20,7 @@
 | **BlackRedSolitaire** | A minimalist mobile solitaire implementing a black/​red twist on Klondike. | Kotlin · Android |
 | **Tap‑Target‑Booster** | Aim‑training game inspired by AimBooster for touch screens. | Java · Android |
 
-> All code here is hobby work — expect rough edges, open issues, and the occasional half‑baked refactor. PRs welcome.
+> All code here is hobby work — expect rough edges, open issues, and the occasionally half‑baked refactor. PRs welcome.
 
 ## 🛠️ Current focus
 
