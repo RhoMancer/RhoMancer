@@ -1,6 +1,6 @@
 <!-- README.md -->
 
-<h1 align="center">Harry Cliff — RhoMan₵er</h1>
+<h1>Harry Cliff — RhoMan₵er</h1>
 
 
 <p align="center">
@@ -26,8 +26,6 @@
 | **[Angus-Paint](https://github.com/RhoMancer/Angus-Paint)** | 48-hour desktop-grade paint app for Android challengers. | Java · Android |
 | **[Black-Red Solitaire](https://github.com/RhoMancer/BlackRedSolitaire)** | Klondike remix: alternating‐colour rule set, minimalist UI. | Kotlin · Android |
 | **[Tap-Target Booster](https://github.com/RhoMancer/Tap-Target-Booster)** | Mobile AimBooster clone for touch-screen FPS warm-ups. | Java · RxJava |
-
-> **Note**: Everything here is side-project code — expect TODO tags and experimental commits.
 
 ## 🛠️ Now Building
 
