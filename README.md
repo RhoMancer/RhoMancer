@@ -12,30 +12,30 @@
 </p>
 
 ## 🔍 About me
-- **Day job:** Senior Android Developer at **JPMC**
-- **Personal Projects:** Founder @ **Angus Software** — Android apps & games
-- **Stack:** 🏞️ Kotlin · ☕ Java · ✨ XML · 🐘 Gradle (KTS) · ⬡ Jetpack Compose · 😏 LibGDX
-- **Interests:** 📱 Small / Mobile Apps, 🎮 Social Gaming, 🔓 Open Source, 💪 Building Muscle (natty).
+- 💼 **Day job:** Senior Android Developer @ 🏦 **JPMC**
+- 🚀 **Personal Projects:** Founder @ 🍔 **Angus Software** — Android apps & games
+- 🥞 **Stack:** 🏞️ Kotlin · ☕ Java · ✨ XML · 🐘 Gradle (KTS) · ⬡ Jetpack Compose · 😏 LibGDX
+- 😻 **Interests:** 📱 Small / Mobile Apps, 🎮 Social Gaming, 🔓 Open Source, 💪 Building Muscle (natty).
 
 ## 📌 Highlighted projects
 
 | Project                                                                   | What it does                                                          | Stack                   |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------|
-| **[Blink-Reader](https://github.com/RhoMancer/Blink-Reader)**             | Speed-reading 300-800 WPM with one-word focus & eye-strain analytics. | Kotlin · Compose · MVVM |
-| **[Angus-Paint](https://github.com/RhoMancer/Angus-Paint)**               | Paint app built in 48 h for a tech interview.                         | Java · Android          |
-| **[Black-Red Solitaire](https://github.com/RhoMancer/BlackRedSolitaire)** | Klondike remix: alternating‐colour rule set, minimalist UI.           | Kotlin · Android        |
-| **[Tap-Target Booster](https://github.com/RhoMancer/Tap-Target-Booster)** | Mobile AimBooster clone for touch-screen FPS warm-ups.                | Java · RxJava           |
+| 📚 **[Blink-Reader](https://github.com/RhoMancer/Blink-Reader)**             | Speed-reading 300-800 WPM with one-word focus & eye-strain analytics. | Kotlin · Compose · MVVM |
+| 🎨 **[Angus-Paint](https://github.com/RhoMancer/Angus-Paint)**               | Paint app built in 48 h for a tech interview.                         | Java · Android          |
+| 🃏 **[Black-Red Solitaire](https://github.com/RhoMancer/BlackRedSolitaire)** | Klondike remix: alternating‐colour rule set, minimalist UI.           | Kotlin · Android        |
+| 🎯 **[Tap-Target Booster](https://github.com/RhoMancer/Tap-Target-Booster)** | Mobile AimBooster clone for touch-screen FPS warm-ups.                | Java · RxJava           |
 
 ## 🛠️ Now Building
 
-- **Jetpack Compose & Kotlin Multiplatform** migrations across Angus Software suite
-- Relay-server architecture for an upcoming networked strategy game (LibGDX + Kotlin DL)
+- 🧩 **Jetpack Compose & Kotlin Multiplatform** migrations across Angus Software suite
+- 🌐 Relay-server architecture for an upcoming networked strategy game (LibGDX + Kotlin DL)
 
 ## 🔮 On the Radar
 
-- **AT Protocol (Bluesky)** tooling
-- **Local LLM / diffusion** workflows for productivity & content creation
-- **Fitness apps** — VMI-based body-composition tracker, hypertrophy periodization planner
+- ☁️ **AT Protocol (Bluesky)** tooling
+- 🤖 **Local LLM / diffusion** workflows for productivity & content creation
+- 💪 **Fitness apps** — VMI-based body-composition tracker, hypertrophy periodization planner
 
 ## 📊 GitHub Snapshot
 
@@ -52,4 +52,4 @@
   <a href="https://bsky.app/profile/rhomancer.bsky.social"><img src="https://img.shields.io/badge/Bluesky-1DA1F2?style=for-the-badge&logo=&logoColor=white" alt="Bluesky"/></a>
 </p>
 
-<sub>© Harry Cliff — code licensed under MIT.</sub>
+<sub>© Harry Cliff — 📜 code licensed under MIT.</sub>
