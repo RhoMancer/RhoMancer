@@ -13,7 +13,7 @@
 
 ## 🔍 About me
 - 💼 **Day job:** Senior Android Developer @ 🏦 **JPMC**
-- 🚀 **Personal Projects:** Founder @ 🍔 **Angus Software** — Android apps & games
+- 🚀 **Personal Projects:** Founder @ 🐮 **Angus Software** — Android apps & games
 - 🥞 **Stack:** 🏞️ Kotlin · ☕ Java · ✨ XML · 🐘 Gradle (KTS) · ⬡ Jetpack Compose · 😏 LibGDX
 - 😻 **Interests:** 📱 Small / Mobile Apps, 🎮 Social Gaming, 🔓 Open Source, 💪 Building Muscle (natty).
 
