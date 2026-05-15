@@ -16,20 +16,24 @@
 
 Native Android apps and games — no jank, no shortcuts.
 
-🌐 **[angussoftware.com](https://angussoftware.com)** · 🤖 **[CI Dashboard](https://ci.angussoftware.dev)**
+🌐 **[angussoftware.com](https://angussoftware.com)**
 
-| Project | What | Stack | CI |
-|---------|------|-------|:--:|
-| **[Angus Tasks](https://github.com/RhoMancer/Angus-Tasks)** | Cross-platform task manager · [<img src="https://img.shields.io/badge/Play_Store-414141?style=flat-square&logo=googleplay&logoColor=white" alt="Play Store"/>](https://play.google.com/store/apps/details?id=com.angussoftware.tasks) | KMP · Compose | [![CI](https://ci.angussoftware.dev/api/badges/2/status.svg?branch=master)](https://ci.angussoftware.dev/repos/2) |
-| **[Angus Software Theming](https://github.com/RhoMancer/Angus-Software-Theming)** | Material 3 design system for Android + Web | KMP · Compose · Wasm | [![CI](https://ci.angussoftware.dev/api/badges/3/status.svg?branch=master)](https://ci.angussoftware.dev/repos/3) |
-| **[Angus Software App](https://github.com/RhoMancer/AngusSoftwareApp)** | Portfolio site & blog · [🌐 Live](https://angussoftware.com) | KMP · Wasm · Android | [![CI](https://ci.angussoftware.dev/api/badges/5/status.svg?branch=master)](https://ci.angussoftware.dev/repos/5) |
-| **[ChannelMaster](https://github.com/RhoMancer/ChannelMaster)** | Notification channel management | Android · Compose | [![CI](https://ci.angussoftware.dev/api/badges/4/status.svg?branch=develop)](https://ci.angussoftware.dev/repos/4) |
+| Project | What | Stack |
+|---------|------|-------|
+| **[Angus Software App](https://github.com/RhoMancer/AngusSoftwareApp)** | Portfolio site & blog · [🌐 Live](https://angussoftware.com) | KMP · Wasm · Android |
+| **Angus Tasks** | Cross-platform task manager · available on Play Store | KMP · Compose |
+| **Angus Software Theming** | Material 3 design system for Android + Web | KMP · Compose · Wasm |
+| **ChannelMaster** | Notification channel management | Android · Compose |
+
+### 🔧 In the Works
+
+- ⬡ **Blocs and Maverics** — Diplomacy-style strategy game with procedural hex maps, AI agents & multiplayer. Kotlin · LibGDX · Ktor. _Pre-alpha, active development._
+- 🎨 **Angus Software Theming** — Publishing soon to GitHub Packages.
 
 ### 🎮 Games & Open Source
 
 | Project | What | Stack |
 |---------|------|-------|
-| **[Blocs and Maverics](https://github.com/RhoMancer/BlocsAndMavericsKotlin)** | Diplomacy-style strategy game with procedural hex maps & AI agents | Kotlin · LibGDX · Ktor |
 | **[Blink Reader](https://github.com/RhoMancer/Blink-Reader)** | Speed-reading app — 300–800 WPM with eye-strain analytics | Kotlin · Compose · MVVM |
 | **[Angus Paint](https://github.com/RhoMancer/Angus-Paint)** | Paint app built in 48h for a tech interview | Java · Android |
 | **[Black-Red Solitaire](https://github.com/RhoMancer/BlackRedSolitaire)** | Klondike remix with alternating-colour rules & minimalist UI | Kotlin · Android |
