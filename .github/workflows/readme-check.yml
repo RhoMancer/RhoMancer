@@ -1,0 +1,102 @@
+name: README Health Check
+
+on:
+  schedule:
+    # 1st and 15th of each month at 9:00 AM UTC (approx biweekly)
+    - cron: '0 9 1,15 * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check external links
+        run: |
+          FAILURES=""
+
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://angussoftware.com" -L --max-time 10)
+          [ "$STATUS" != "200" ] && FAILURES="$FAILURES
+          - angussoftware.com returned $STATUS"
+
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://play.google.com/store/apps/developer?id=Angus+Software" --max-time 10)
+          [ "$STATUS" != "200" ] && FAILURES="$FAILURES
+          - Play Store developer page returned $STATUS"
+
+          for APP in dev.angussoftware.app com.woods.blinkreader gms.angus.angussoli angus.gaming.taptargetbooster; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://play.google.com/store/apps/details?id=$APP" --max-time 10)
+            [ "$STATUS" != "200" ] && FAILURES="$FAILURES
+          - Play Store $APP returned $STATUS"
+          done
+
+          for REPO in RhoMancer/AngusSoftwareApp RhoMancer/Blink-Reader RhoMancer/BlackRedSolitaire RhoMancer/Tap-Target-Booster RhoMancer/llmfit; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://api.github.com/repos/$REPO" --max-time 10)
+            [ "$STATUS" != "200" ] && FAILURES="$FAILURES
+          - GitHub $REPO returned $STATUS"
+          done
+
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://streak-stats.demolab.com/?user=RhoMancer" --max-time 10)
+          [ "$STATUS" != "200" ] && FAILURES="$FAILURES
+          - streak-stats.demolab.com returned $STATUS"
+
+          if [ -n "$FAILURES" ]; then
+            {
+              echo "FAILURES<<EOFMARKER"
+              echo "$FAILURES"
+              echo "EOFMARKER"
+            } >> "$GITHUB_ENV"
+          else
+            echo "All links healthy ✅"
+            echo "FAILURES=" >> "$GITHUB_ENV"
+          fi
+
+      - name: Check for new public repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          README_REPOS="AngusSoftwareApp Blink-Reader BlackRedSolitaire Tap-Target-Booster llmfit RhoMancer Angus-Paint koog chainlink concord lettabot .github"
+          NEW_REPOS=""
+
+          while IFS='|' read -r name desc; do
+            if [[ ! " $README_REPOS " =~ " $name " ]]; then
+              NEW_REPOS="$NEW_REPOS
+          - **$name**: $desc"
+            fi
+          done < <(gh api "users/RhoMancer/repos?per_page=100&type=public" --jq '.[] | select(.fork == false) | "\(.name)|\(.description // "No description")"' 2>/dev/null)
+
+          if [ -n "$NEW_REPOS" ]; then
+            {
+              echo "NEW_REPOS<<EOFMARKER"
+              echo "$NEW_REPOS"
+              echo "EOFMARKER"
+            } >> "$GITHUB_ENV"
+          else
+            echo "No new repos to add"
+            echo "NEW_REPOS=" >> "$GITHUB_ENV"
+          fi
+
+      - name: Create issue if action needed
+        if: env.FAILURES != '' || env.NEW_REPOS != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BODY=""
+          if [ -n "$FAILURES" ]; then
+            BODY="${BODY}## Broken Links
+          $FAILURES
+
+          "
+          fi
+          if [ -n "$NEW_REPOS" ]; then
+            BODY="${BODY}## New Public Repos (consider adding to README)
+          $NEW_REPOS
+          "
+          fi
+
+          gh issue create \
+            --title "README biweekly check: action needed" \
+            --body "$BODY" 2>/dev/null
