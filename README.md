@@ -3,9 +3,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-  <img src="https://img.shields.io/badge/Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Compose"/>
+  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Compose"/>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android"/>
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white" alt="Gradle"/>
+  <img src="https://img.shields.io/badge/KMP-00599C?style=flat-square" alt="KMP"/>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
   <img src="https://img.shields.io/badge/LibGDX-E83D13?style=flat-square" alt="LibGDX"/>
 </p>
@@ -21,40 +21,32 @@ Native Android apps and games — no jank, no shortcuts.
 | Project | What | Stack |
 |---------|------|-------|
 | **[Angus Software App](https://github.com/RhoMancer/AngusSoftwareApp)** | Portfolio site & blog · [🌐 Live](https://angussoftware.com) | KMP · Wasm · Android |
-| **Angus Tasks** | Cross-platform task manager · available on Play Store | KMP · Compose |
-| **Angus Software Theming** | Material 3 design system for Android + Web | KMP · Compose · Wasm |
-| **ChannelMaster** | Notification channel management | Android · Compose |
+| **Angus Tasks** | Cross-platform task manager (KMP + Compose) · launching soon | Kotlin Multiplatform · Compose |
+| **Angus Software Theming** | Material 3 design system for Android + Web · publishing to GPR | KMP · Compose · Wasm |
+| **ChannelMaster** | Notification channel management dashboard | Android · Compose |
 
 ### 🔧 In the Works
 
 - ⬡ **Blocs and Maverics** — Diplomacy-style strategy game with procedural hex maps, AI agents & multiplayer. Kotlin · LibGDX · Ktor. _Pre-alpha, active development._
-- 🎨 **Angus Software Theming** — Publishing soon to GitHub Packages.
 
-### 🎮 Games & Open Source
+### 🎮 Open Source
 
 | Project | What | Stack |
 |---------|------|-------|
 | **[Blink Reader](https://github.com/RhoMancer/Blink-Reader)** | Speed-reading app — 300–800 WPM with eye-strain analytics | Kotlin · Compose · MVVM |
-| **[Angus Paint](https://github.com/RhoMancer/Angus-Paint)** | Paint app built in 48h for a tech interview | Java · Android |
 | **[Black-Red Solitaire](https://github.com/RhoMancer/BlackRedSolitaire)** | Klondike remix with alternating-colour rules & minimalist UI | Kotlin · Android |
 | **[Tap-Target Booster](https://github.com/RhoMancer/Tap-Target-Booster)** | Mobile AimBooster clone for touchscreen FPS warm-ups | Java · RxJava |
-| **[llmfit](https://github.com/RhoMancer/llmfit)** | Benchmark 100s of LLM models against your hardware · _contributing upstream_ | Rust |
+| **[llmfit](https://github.com/RhoMancer/llmfit)** | Benchmark 100s of LLM models against your hardware · [_fork of AlexsJones/llmfit_](https://github.com/AlexsJones/llmfit) | Rust |
 
-### 🛠️ At a glance
+### 👤 About
 
-```kotlin
-val harry = developer {
-    role = "Senior Android Developer"
-    languages += listOf("Kotlin", "Java", "Rust", "Python")
-    frameworks += listOf("Compose", "LibGDX", "Ktor", "KMP")
-    interests += listOf("Social Gaming", "Local LLMs", "Open Source", "Fitness")
-    hardware = "AMD RX 6900 XT · ROCm 7.2"
-}
-```
+- Senior Android developer — Kotlin, Compose, KMP by day
+- Building Angus Software: apps, games, and dev tools
+- Rust dabbler — LLM benchmarking, systems tooling
+- AMD RX 6900 XT + ROCm for local LLM inference
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RhoMancer&show_icons=true&count_private=true&hide_title=true&bg_color=00000000&border_color=00000000&text_color=c9d1d9&icon_color=58a6ff" alt="Stats" height="140"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RhoMancer&layout=compact&hide=css,html&bg_color=00000000&border_color=00000000&text_color=c9d1d9" alt="Languages" height="140"/>
+  <img src="https://streak-stats.demolab.com/?user=RhoMancer&theme=github-dark-blue&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak" height="160"/>
 </p>
 
 <p align="center">
