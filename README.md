@@ -37,6 +37,7 @@ Native Android apps and games — no jank, no shortcuts.
 | **[Black-Red Solitaire](https://github.com/RhoMancer/BlackRedSolitaire)** | Klondike remix with alternating-colour rules & minimalist UI · [<img src="https://img.shields.io/badge/Play-414141?style=flat-square&logo=googleplay&logoColor=white" height="16"/>](https://play.google.com/store/apps/details?id=gms.angus.angussoli) | Kotlin · Android |
 | **[Tap-Target Booster](https://github.com/RhoMancer/Tap-Target-Booster)** | Mobile AimBooster clone for touchscreen FPS warm-ups · [<img src="https://img.shields.io/badge/Play-414141?style=flat-square&logo=googleplay&logoColor=white" height="16"/>](https://play.google.com/store/apps/details?id=angus.gaming.taptargetbooster) | Java · RxJava |
 | **[llmfit](https://github.com/RhoMancer/llmfit)** | Benchmark 100s of LLM models against your hardware · [_fork of AlexsJones/llmfit_](https://github.com/AlexsJones/llmfit) | Rust |
+| **[Temperlux](https://github.com/RhoMancer/temperlux)** | DDC/CI brightness controller for Linux · 26 languages · 16 themes · [📦 crates.io](https://crates.io/crates/temperlux) | Rust · GTK4 |
 
 ### 👤 About
 
@@ -54,4 +55,6 @@ Native Android apps and games — no jank, no shortcuts.
   <a href="https://play.google.com/store/apps/developer?id=Angus+Software"><img src="https://img.shields.io/badge/Google_Play-Angus_Software-414141?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play"/></a>
   <a href="https://www.linkedin.com/in/harry-cliff"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://bsky.app/profile/rhomancer.bsky.social"><img src="https://img.shields.io/badge/Bluesky-1DA1F2?style=flat-square&logo=bluesky&logoColor=white" alt="Bluesky"/></a>
+  <a href="https://ko-fi.com/angussoftware"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white" alt="Ko-fi"/></a>
+  <a href="https://github.com/sponsors/RhoMancer"><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"/></a>
 </p>
